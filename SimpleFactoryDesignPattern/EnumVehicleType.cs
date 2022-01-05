@@ -3,6 +3,6 @@
     public enum EnumVehicleType
     {
         Car,
-        Motocicle
+        Motorcycle
     }
 }

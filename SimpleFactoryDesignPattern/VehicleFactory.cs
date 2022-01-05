@@ -13,8 +13,8 @@ namespace SimpleFactoryDesignPattern
                     vehicle = new Car();
                     break;
 
-                case EnumVehicleType.Motocicle:
-                    vehicle = new Motocicle();
+                case EnumVehicleType.Motorcycle:
+                    vehicle = new Motorcycle();
                     break;
 
                 default:

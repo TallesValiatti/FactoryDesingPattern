@@ -15,11 +15,11 @@ namespace SimpleFactoryDesignPattern
         }
     }
 
-    public class Motocicle : Vehicle
+    public class Motorcycle : Vehicle
     {
         public override void DoSomeWork()
         {
-            Console.WriteLine("Motocicle is doing some work");
+            Console.WriteLine("Motorcycle is doing some work");
         }
     }
 }

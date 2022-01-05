@@ -15,11 +15,11 @@ namespace FactoryMethodDesignPattern
         }
     }
 
-    public class Motocicle : IVehicle
+    public class Motorcycle : IVehicle
     {
         public void DoSomeWork()
         {
-            Console.WriteLine("Motocicle is doing some work");
+            Console.WriteLine("Motorcycle is doing some work");
         }
     }
 }

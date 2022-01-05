@@ -25,7 +25,7 @@ namespace FactoryMethodDesignPattern
         {
             // Some business logic
 
-            IVehicleFactory vehicleFactory = new MotocicleFactory();
+            IVehicleFactory vehicleFactory = new MotorcycleFactory();
             IVehicle vehicle = vehicleFactory.CreateVehicle();
             vehicle.DoSomeWork();
 

@@ -14,7 +14,7 @@
 
             IFactory factory = new ModernFactory();
             ICar car = factory.CreateCar();
-            IMotocicle motocicle = factory.CreateMotocicle();
+            IMotorcycle motocicle = factory.CreateMotorcycle();
 
             car.DoSomeWork();
             motocicle.DoSomeWork();
@@ -28,7 +28,7 @@
 
             IFactory factory = new VintageFactory();
             ICar car = factory.CreateCar();
-            IMotocicle motocicle = factory.CreateMotocicle();
+            IMotorcycle motocicle = factory.CreateMotorcycle();
 
             car.DoSomeWork();
             motocicle.DoSomeWork();

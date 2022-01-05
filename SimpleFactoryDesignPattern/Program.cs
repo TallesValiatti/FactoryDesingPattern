@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            SomeBusinessLogic(EnumVehicleType.Motocicle);
+            SomeBusinessLogic(EnumVehicleType.Motorcycle);
 
             SomeBusinessLogic(EnumVehicleType.Car);
         }

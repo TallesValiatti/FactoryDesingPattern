@@ -3,7 +3,7 @@
     public interface IFactory
     {
         ICar CreateCar();
-        IMotocicle CreateMotocicle();
+        IMotorcycle CreateMotorcycle();
     }
 
     public class VintageFactory : IFactory
@@ -13,9 +13,9 @@
             return new VintageCar();
         }
 
-        public IMotocicle CreateMotocicle()
+        public IMotorcycle CreateMotorcycle()
         {
-            return new VintageMotocicle();
+            return new VintageMotorcycle();
         }
     }
 
@@ -26,9 +26,9 @@
             return new ModernCar();
         }
 
-        public IMotocicle CreateMotocicle()
+        public IMotorcycle CreateMotorcycle()
         {
-            return new ModernMotocicle();
+            return new ModernMotorcycle();
         }
     }
 }

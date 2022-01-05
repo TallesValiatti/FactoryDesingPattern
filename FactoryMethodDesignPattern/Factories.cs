@@ -15,11 +15,11 @@ namespace FactoryMethodDesignPattern
         }
     }
 
-    public class MotocicleFactory : IVehicleFactory
+    public class MotorcycleFactory : IVehicleFactory
     {
         public IVehicle CreateVehicle()
         {
-            return new Motocicle();
+            return new Motorcycle();
         }
     }
 }
